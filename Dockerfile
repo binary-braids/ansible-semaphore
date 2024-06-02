@@ -2,7 +2,7 @@ FROM semaphoreui/semaphore:latest
 
 USER root 
 
-RUN apk add --no-cache krb5-dev && \
+RUN apk add --no-cache krb5 krb5-dev && \
     rm -rf /var/cache/apk/*
 
 RUN source /opt/semaphore/venv/bin/activate && \
