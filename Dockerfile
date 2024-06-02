@@ -1,7 +1,11 @@
 FROM semaphoreui/semaphore:latest
 
-USER root
-RUN apk add --no-cache python3 py3-pip krb5
-RUN pip install pywinrm pykerberos requests
+USER root 
+
+RUN apk add --no-cache krb5-dev && \
+    rm -rf /var/cache/apk/*
+
+RUN source /opt/semaphore/venv/bin/activate && \
+    pip3 install --upgrade pywinrm[kerberos] --target /opt/semaphore/venv/lib/python3.11/site-packages
 
 USER semaphore
