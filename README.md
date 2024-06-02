@@ -7,7 +7,7 @@
 
 Modern UI for Ansible
 
-![GitHub Actions](https://github.com/binary-braids/ansible-semaphore/actions/workflows/main.yml/badge.svg)
+![GitHub Actions](https://github.com/binary-braids/ansible_semaphore/actions/workflows/main.yml/badge.svg)
 [![Trivy](https://img.shields.io/badge/trivy-enabled-brightgreen?style=for-the-badge&logo=trivy)](https://trivy.dev)
 [![HitCount](https://hits.dwyl.com/binary-braids/ansible-semaphore.svg?style=for-the-badge&show=unique)](http://hits.dwyl.com/binary-braids/ansible-semaphore)
 
