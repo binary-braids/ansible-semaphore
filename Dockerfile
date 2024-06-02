@@ -1,9 +1,9 @@
 FROM semaphoreui/semaphore:latest
 
+USER root 
+
 RUN apk add --no-cache krb5 && \
     rm -rf /var/cache/apk/*
-
-USER root    
 
 RUN source /opt/semaphore/venv/bin/activate && \
     pip3 install --upgrade pykerberos && \
