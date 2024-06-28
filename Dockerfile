@@ -1,8 +1,8 @@
-FROM semaphoreui/semaphore:v2.10.2
+FROM semaphoreui/semaphore:v2.10.11
 
 USER root 
 
-ENV ANSIBLE_VERSION 9.4.0
+ENV ANSIBLE_VERSION=9.4.0
 
 RUN apk add --no-cache krb5 krb5-dev && \
     rm -rf /var/cache/apk/*
