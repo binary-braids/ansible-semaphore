@@ -68,7 +68,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           git-user-name: "braid-bot[bot]"
           git-user-email: "169546839+braid-bot[bot]@users.noreply.github.com"
-          release-count: 10
+          release-count: 5
           version-file: package.yaml
           create-summary: true
 
