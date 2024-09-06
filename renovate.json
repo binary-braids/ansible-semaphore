@@ -9,6 +9,10 @@
   "reviewers": [
     "data-tangles"
   ],
+  "labels": [
+    "enhancement",
+    "dependencies"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
