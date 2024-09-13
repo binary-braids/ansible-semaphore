@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/binary-braids/ansible-semaphore/compare/v0.3.0...v0.3.1) (2024-09-13)
+
+
+### Bug Fixes
+
+* simplify dockerfile contents ([4e2e027](https://github.com/binary-braids/ansible-semaphore/commit/4e2e027ece8b1ffcff58b02afb7a70978ddfdf1a))
+
+
+
 # [0.3.0](https://github.com/binary-braids/ansible-semaphore/compare/v0.2.0...v0.3.0) (2024-09-13)
 
 
