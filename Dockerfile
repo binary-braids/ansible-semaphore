@@ -8,7 +8,7 @@ RUN apk add --no-cache build-base libffi-dev openssl-dev python3-dev krb5 krb5-d
     rm -rf /var/cache/apk/*
 
 RUN source /opt/semaphore/apps/ansible/${ANSIBLE_VERSION}/venv && \
-    pip3 install --upgrade pywinrm[kerberos] --target /opt/semaphore/venv/lib/python3.11/site-packages && \
-    pip3 install netaddr --target /opt/semaphore/venv/lib/python3.11/site-packages
+    pip3 install --upgrade pywinrm[kerberos] --target /opt/semaphore/apps/ansible/9.4.0/venv/lib/python3.11/site-packages && \
+    pip3 install netaddr --target /opt/semaphore/apps/ansible/9.4.0/venv/lib/python3.11/site-packages
 
 USER semaphore
