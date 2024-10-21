@@ -1,4 +1,4 @@
-FROM semaphoreui/semaphore:v2.10.22@sha256:2a2df841e4b6b33e82f87101e942ab6008207bd3b8e936bc9a48e2eea3671498
+FROM semaphoreui/semaphore:v2.10.32@sha256:14d33a823ccae6fc9be20109286f0a4d46f9d37f7b4bce3076e0f737b6882e23
 
 USER root 
 
