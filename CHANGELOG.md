@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/binary-braids/ansible-semaphore/compare/v0.3.1...v0.3.2) (2025-12-10)
+
+
+### Bug Fixes
+
+* correct workflow config for conventional commits ([545b758](https://github.com/binary-braids/ansible-semaphore/commit/545b7586629ed929bce8fead2617c55379b3e799))
+
+
+
 ## [0.3.1](https://github.com/binary-braids/ansible-semaphore/compare/v0.3.0...v0.3.1) (2024-09-13)
 
 
