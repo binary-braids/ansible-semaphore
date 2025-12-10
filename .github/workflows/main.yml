@@ -79,6 +79,7 @@ jobs:
           git-user-name: "braid-bot[bot]"
           git-user-email: "169546839+braid-bot[bot]@users.noreply.github.com"
           release-count: 10
+          skip-on-empty: "false"
           version-file: package.yaml
           create-summary: true
 
